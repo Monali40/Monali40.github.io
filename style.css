@@ -1,3 +1,5 @@
+/* boilarplate style */
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +14,7 @@ body, html{
 
 }
 
+/* Navbar styling */
 .nav{
     height: 80px;
     width: 100%;
@@ -23,4 +26,104 @@ body, html{
 }
 .nav-h1 span{
     color: palegreen;
+}
+.nav-options .home{
+   color:palegreen;
+
+}
+.nav-options .home:hover{
+   color: black;
+   border-bottom : 4px solid palegreen;
+ 
+ }
+
+.nav-options a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.nav-options a:hover{
+    
+    color:palegreen;
+    border-bottom : 4px solid black;
+}
+
+.nav-btn button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    color: palegreen;
+}
+
+.nav-btn button:hover{
+
+background-color: palegreen;
+color: black;
+  
+}
+
+/* Main Section */
+
+.main{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.main-left{
+    height: 500px;
+    width: 50%;
+    
+}
+
+.main-left-1{
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    
+}
+
+.main-left-h1{
+    color: palegreen;
+}
+
+.main-left-para{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.main-right{
+    height: 500px;
+    width: 50%;
+   
+}
+
+.main-left-btn button{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: palegreen;
+    font-size: 15px;
+    
+
+}
+
+.main-left-btn button:hover{
+    background-color: palegreen;
+    color: black;
+}
+
+.main-left-btn{
+    padding-top: 10px;
 }
