@@ -73,30 +73,34 @@ color: black;
 /* Main Section */
 
 .main{
-    height: 500px;
+    height: 700px;
     width: 100%;
     display: flex;
 }
 
 .main-left{
-    height: 500px;
+    height: 700px;
     width: 50%;
     
 }
 
 .main-left-1{
     padding-left: 50px;
-    padding-top: 100px;
+    padding-top: 225px;
     padding-bottom: 5px;
+    
     
 }
 
 .main-left-h1{
     color: palegreen;
+    font-size: 25px;
+    
 }
 
 .main-left-para{
     font-size: 20px;
+    color: #333;
     padding-bottom: 5px;
 }
 
@@ -106,6 +110,11 @@ color: black;
    
 }
 
+/* button Resume Download*/
+.main-left-btn{
+    padding-top: 10px;
+      
+}
 .main-left-btn button{
     height: 50px;
     width: 200px;
@@ -115,15 +124,68 @@ color: black;
     cursor: pointer;
     color: palegreen;
     font-size: 15px;
+    font-weight: 500;
+}
+
+.main-left-btn a{
     
+    text-decoration: none;
+    color: palegreen;
 
 }
 
-.main-left-btn button:hover{
-    background-color: palegreen;
-    color: black;
+.main-right-myimage{
+    height: 550px;
+
+    padding-top: 70px;
 }
 
-.main-left-btn{
-    padding-top: 10px;
+/* about me  */
+
+.about{
+    height: 600px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+/* About me left section */
+.about-left{
+    height: 600px;
+    width: 50%;
+    /* background-color: bisque; */
+    padding-left: 60px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.about-left-h1{
+    color: palegreen;
+    /* border-bottom : 4px solid black; */
+    /* display: inline-block;           Restricts the border width to text area */
+}
+.about-left-para{
+    padding-top: 15px;
+    font-size: 20px;
+    color: #333;/* Dark gray text color */
+    /* background-color: #f9f9f9; Light background for contrast */
+    
+}
+
+.about-left-para span{
+    color: palegreen;
+}
+
+/* About me right section */
+.about-right{
+    height: 600px;
+    width: 50%;
+    /* background-color: red; */
+    padding-left: 60px;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+}
+.about-right-h1{
+    color: palegreen;
 }
