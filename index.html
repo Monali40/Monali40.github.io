@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   </head>
   <body>
     <!-- Navbar -->
@@ -13,11 +14,11 @@
         <h1><span>PORT</span>FOLIO</h1>
       </div>
       <div class="nav-options">
-        <a href="#" class="home">Home</a>
+        <a href="#home" class="home">Home</a>
         <a href="#">Projects</a>
         <a href="#">Experience</a>
         <a href="#">Services</a>
-        <a href="#">About Me</a>
+        <a href="#aboutMe">About Me</a>
       </div>
       <!-- Nav Bar -->
       <div class="nav-btn">
@@ -25,7 +26,7 @@
       </div>
     </div>
     <!-- Main Section -->
-    <div class="main">
+    <div class="main" id="home">
       <div class="main-left">
         <div class="main-left-1">
           <div class="main-left-para">
@@ -60,7 +61,7 @@
     </div>
     <!-- About me Section -->
     <div>
-      <div class="about">
+      <div class="about" id="aboutMe">
         <div class="about-left">
           <h1 class="about-left-h1">About Me</h1>
           <p class="about-left-para">
@@ -76,11 +77,48 @@
             learning and improvement, staying updated with industry trends to
             bring innovative ideas to every project.
           </p>
-        </div>
+      
+
+        <!-- below all i class is taken from https://remixicon.com/ -->
+        <div class="about-social"> 
+            <a href="https://www.linkedin.com/in/monalikhot" target="_blank" class="about-link">
+                <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://github.com/Monali40" target="_blank" class="about-link">
+                <i class="ri-github-fill"></i>
+            </a>
+        </div>  </div>
         <div class="about-right">
             <h1 class="about-right-h1">Skills</h1>
             <div class="about-right-skills-container">
-
+                <div class="about-skills">
+                    <img src="html_icon.png" alt="HTML/HTML5" class="skill-icon">
+                    <h3 class="about-skills-name">HTML/HTML5</h3>
+                </div>
+                <div class="about-skills">
+                    <img src="css3_icon.png" alt="CSS/CSS3" class="skill-icon">
+                  <h3 class="about-skills-name">CSS/CSS3</h3>
+                </div>
+                <div class="about-skills">
+                    <img src="javascript_icon.png" alt="JavaScrip" class="skill-icon">
+                    <h3 class="about-skills-name">JavaScript</h3>
+                </div>
+                <div class="about-skills">
+                    <img src="mongodb_icon.png" alt="MongoDB" class="skill-icon">
+                    <h3 class="about-skills-name">MongoDB</h3>
+                </div>
+                <div class="about-skills">
+                    <img src="react js_logo.png" alt="React JS" class="skill-icon">
+                    <h3 class="about-skills-name">React JS</h3>
+                </div>
+                <div class="about-skills">
+                    <img src="nodejs_icon.png" alt="Node JS" class="skill-icon">
+                    <h3 class="about-skills-name">Node JS</h3>
+                </div>
+                <!-- <div class="about-skills">
+                    <img src="" alt="MongoDB" class="skill-icon">
+                    <h3 class="about-skills-name">Express JS</h3>
+                </div> -->
             </div>
 
 
