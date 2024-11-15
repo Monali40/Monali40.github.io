@@ -15,10 +15,11 @@
       </div>
       <div class="nav-options">
         <a href="#home" class="home">Home</a>
-        <a href="#">Projects</a>
+        <a href="#projects">Projects</a>
         <a href="#">Experience</a>
         <a href="#">Services</a>
         <a href="#aboutMe">About Me</a>
+        <a href="#contact-me">Contact Me</a>
       </div>
       <!-- Nav Bar -->
       <div class="nav-btn">
@@ -93,11 +94,11 @@
             <div class="about-right-skills-container">
                 <div class="about-skills">
                     <img src="html_icon.png" alt="HTML/HTML5" class="skill-icon">
-                    <h3 class="about-skills-name">HTML/HTML5</h3>
+                    <h3 class="about-skills-name">Html/Html5</h3>
                 </div>
                 <div class="about-skills">
                     <img src="css3_icon.png" alt="CSS/CSS3" class="skill-icon">
-                  <h3 class="about-skills-name">CSS/CSS3</h3>
+                  <h3 class="about-skills-name">Css/Css3</h3>
                 </div>
                 <div class="about-skills">
                     <img src="javascript_icon.png" alt="JavaScrip" class="skill-icon">
@@ -115,17 +116,112 @@
                     <img src="nodejs_icon.png" alt="Node JS" class="skill-icon">
                     <h3 class="about-skills-name">Node JS</h3>
                 </div>
-                <!-- <div class="about-skills">
-                    <img src="" alt="MongoDB" class="skill-icon">
+                <div class="about-skills">
+                    <img src="express-109.svg" alt="Express JS" class="skill-icon">
                     <h3 class="about-skills-name">Express JS</h3>
-                </div> -->
+                </div>
+                <div class="about-skills">
+                    <img src="git.svg" alt="Git" class="skill-icon">
+                    <h3 class="about-skills-name">Git</h3>
+                </div>
+                <div class="about-skills">
+                    <img src="postman.svg" alt="postman" class="skill-icon">
+                    <h3 class="about-skills-name">Postman</h3>
+                </div>
             </div>
 
 
         </div>
       </div>
     </div>
+    <!-- Projects Sections -->
+     <div class="projects-section" id="projects">
+        <h2 class="section-title">RECENT PROJECTS</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <a href="https://monali40.github.io/Tic-Tac-Toe/" target="_blank" class="projects-image">
+                  <img src="Tic.jpg" alt="image" class="projects-img">  
+                </a>
+                
+                <div class="projects-data">
+                   <h3 class="projects-name">Tic Tac Tao Game</h3>
+                   <p class="projects-description">This Tic Tac Toe Game is a simple, web-based project built with HTML, CSS, and JavaScript.</p>
 
+                   <div class="projects-skills">
+                    <img src="html_icon.png" alt="image" class="projects-skills">
+                    <img src="css3_icon.png" alt="image" class="projects-skills">
+                    <img src="javascript_icon.png" alt="image" class="projects-skills">
+                   </div>
+
+                   <a href="https://monali40.github.io/Tic-Tac-Toe/" target="_blank" class="projects-button">
+                    <i class="ri-link"></i>
+                    <span>Visit Project</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <a href="https://monali40.github.io/Rock-Paper-Scissors-Game/" target="_blank" class="projects-image">
+                  <img src="Rock.jpg" alt="image" class="projects-img">  
+                </a>
+                
+                <div class="projects-data">
+                   <h3 class="projects-name">Rock-Paper-Scissors-Game</h3>
+                   <p class="projects-description">This is a simple Rock-Paper-Scissors-Game, web-based project built with HTML, CSS, and JavaScript.</p>
+
+                   <div class="projects-skills">
+                    <img src="html_icon.png" alt="image" class="projects-skills">
+                    <img src="css3_icon.png" alt="image" class="projects-skills">
+                    <img src="javascript_icon.png" alt="image" class="projects-skills">
+                   </div>
+
+                   <a href="https://monali40.github.io/Rock-Paper-Scissors-Game/" target="_blank" class="projects-button">
+                    <i class="ri-link"></i>
+                    <span>Visit Project</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <a href="https://monali40.github.io/Tic-Tac-Toe/" target="_blank" class="projects-image">
+                  <img src="TicTacTao.webp" alt="image" class="projects-img">  
+                </a>
+                
+                <div class="projects-data">
+                   <h3 class="projects-name">Tic Tac Tao Game</h3>
+                   <p class="projects-description">This Tic Tac Toe Game is a simple, web-based project built with HTML, CSS, and JavaScript.</p>
+
+                   <div class="projects-skills">
+                    <img src="html_icon.png" alt="image" class="projects-skills">
+                    <img src="css3_icon.png" alt="image" class="projects-skills">
+                    <img src="javascript_icon.png" alt="image" class="projects-skills">
+                   </div>
+
+                   <a href="https://monali40.github.io/Tic-Tac-Toe/" target="_blank" class="projects-button">
+                    <i class="ri-link"></i>
+                    <span>Visit Project</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+     </div>
+     <!-- Contact Me -->
+      <div class="contact-section" id="contact-me">
+        <h2 class="section-title1">CONTACT ME</h2>
+        <div class="contact-container">
+            <form action="" class="contact-form" id="contact-form-1">
+                <div class="contact-group">
+                    <input type="text" name="user_name" placeholder="Name" required class="contact-input">
+                    <input type="email" name="user_email" placeholder="Email" required class="contact-input">
+                </div>
+
+                <textarea name="user_message" placeholder="Message" class="contact-area"></textarea>
+            <button type="submit" class="contact-button">Send Message</button>
+            <p class="contact-message" id="contact-message">Message</p>
+            </form>
+        </div>
+      </div>
     <script src="portfolio.js"></script>
   </body>
 </html>
