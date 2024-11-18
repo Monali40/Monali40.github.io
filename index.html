@@ -6,6 +6,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
   </head>
   <body>
     <!-- Navbar -->
@@ -16,14 +17,13 @@
       <div class="nav-options">
         <a href="#home" class="home">Home</a>
         <a href="#projects">Projects</a>
-        <a href="#">Experience</a>
-        <a href="#">Services</a>
+        <!-- <a href="#">Experience</a> -->
+        <a href="#services">Services</a>
         <a href="#aboutMe">About Me</a>
-        <a href="#contact-me">Contact Me</a>
       </div>
       <!-- Nav Bar -->
       <div class="nav-btn">
-        <button>Contact Me</button>
+       <a href="#contactMe"><button>Contact Me</button></a>
       </div>
     </div>
     <!-- Main Section -->
@@ -51,13 +51,9 @@
       </div>
       <div class="main-right">
         <div class="main-right-1">
-          <div class="main-right-image">
-            <img
-              src="Hire-MERN-Stack-Developers-from-us.png"
-              class="main-right-myimage"
-            />
-          </div>
-        </div>
+         <!-- <img src="mern_icon.png"/> -->
+        <img src="mernstack-img.gif"/>
+      </div>
       </div>
     </div>
     <!-- About me Section -->
@@ -134,9 +130,39 @@
         </div>
       </div>
     </div>
+    <!-- Services Section -->
+    <div class="services">
+        <div class="service-h1" id="services">
+            <h1>My Services</h1>
+        </div>
+
+        <div class="services-boxes">
+            <div class="service-box-1">
+                <i class="fa-solid fa-heart"></i>
+                <h2>Web Designer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit explicabo reiciendis molestiae illo ipsam incidunt a facere.
+                    </p>
+                    <p class="learn">Learn More</p>
+            </div>
+            <div class="service-box-2">
+                <i class="fa-solid fa-heart"></i>
+                <h2>UI/UX Designer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit explicabo reiciendis molestiae illo ipsam incidunt a facere.
+                    </p>
+                    <p class="learn">Learn More</p>
+            </div>
+            <div class="service-box-3">
+                <i class="fa-solid fa-heart"></i>
+                <h2>App Designer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit explicabo reiciendis molestiae illo ipsam incidunt a facere.
+                    </p>
+                    <p class="learn">Learn More</p>
+            </div>
+        </div>
+    </div>
     <!-- Projects Sections -->
      <div class="projects-section" id="projects">
-        <h2 class="section-title">RECENT PROJECTS</h2>
+        <h1 class="section-title">Projects</h1>
         <div class="projects-container">
             <div class="project-card">
                 <a href="https://monali40.github.io/Tic-Tac-Toe/" target="_blank" class="projects-image">
@@ -205,23 +231,62 @@
             </div>
 
         </div>
-     </div>
-     <!-- Contact Me -->
-      <div class="contact-section" id="contact-me">
-        <h2 class="section-title1">CONTACT ME</h2>
-        <div class="contact-container">
-            <form action="" class="contact-form" id="contact-form-1">
-                <div class="contact-group">
-                    <input type="text" name="user_name" placeholder="Name" required class="contact-input">
-                    <input type="email" name="user_email" placeholder="Email" required class="contact-input">
-                </div>
+     </div> 
+      <!-- projects Section -->
+       <!-- <div class="projects">
+        <div class="projects-h1">
+            <h1>Projects</h1>
+        </div>
 
-                <textarea name="user_message" placeholder="Message" class="contact-area"></textarea>
-            <button type="submit" class="contact-button">Send Message</button>
-            <p class="contact-message" id="contact-message">Message</p>
-            </form>
+        <div class="projects-boxes">
+            <div class="projects-box-1"></div>
+            <div class="projects-box-2"></div>
+            <div class="projects-box-3"></div>
+        </div>
+       </div> -->
+     <!-- Contact Me -->
+      <div class="contact" id="contactMe">
+        <div class="contact-left">
+            <div class="contact-left-h1">
+                <h1>Contact Me</h1>
+            </div>
+
+            <div class="contact-left-email">
+                <img src="gmail-icon.svg" class="gmail-icon">
+                <span>monalikhot00@gmail.com</span>
+            </div> 
+          
+            <div class="contact-left-phone">
+                 <i class="ri-phone-line"></i>
+                 <span>+1 9378196947</span>
+            </div>
+
+            <div class="contact-left-social"> 
+                <a href="https://www.linkedin.com/in/monalikhot" target="_blank" class="about-link">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+                <a href="https://github.com/Monali40" target="_blank" class="about-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+            </div>  
+
+        </div>
+        <div class="contact-right">
+            <div class="input">
+                <input placeholder="Your Name" type="text" required class="input1">
+                <input placeholder="Your Email" type="email" required class="input2">
+            </div>
+
+            <textarea placeholder="Message"></textarea>
+            <div class="submit-btn">
+                <button>Submit</button>
+            </div>
         </div>
       </div>
+     
+
+
+
     <script src="portfolio.js"></script>
   </body>
 </html>

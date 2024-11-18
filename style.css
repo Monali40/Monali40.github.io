@@ -10,6 +10,7 @@ body, html{
     height: 100%;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
 
 }
 
@@ -96,7 +97,11 @@ color: black;
     font-size: 25px;
     
 }
-
+.main-left-h1:hover{
+    color: black;
+    
+    
+}
 .main-left-para{
     font-size: 20px;
     color: #333;
@@ -108,6 +113,12 @@ color: black;
     width: 50%;
    
 }
+
+.main-right-1 img{
+margin-left: 55px;
+
+}
+
 
 /* button Resume Download*/
 .main-left-btn{
@@ -161,6 +172,7 @@ color: black;
 
 .about-left-h1{
     color: black;
+
     /* border-bottom : 4px solid black; */
     /* display: inline-block;           Restricts the border width to text area */
 }
@@ -258,21 +270,37 @@ padding-top: 20px;
 
 
 .projects-container{
-    display: flex;   
+    display: flex;
+    margin-left: 70px;   
+    
 }
 .projects-img{
-    padding-top: 10px;
-    padding-bottom: 10px;
-   height: 360px;
-   width: 70%;
+    margin-top: 30px;
+    height: 350px;
+    width: 300px;
+    border: 30px solid black ;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.project-img{
+    transition: border 0.5s 0.5s ease-in;
+  }
+  .projects-img:hover{
+    border: 25px solid palegreen;
+    scale: 1.1;
+}
+.projects-data{
+    margin-top: 25px;
 }
 .projects-name{
     font-size: medium;
-    margin-bottom: .5rem;
+    margin-bottom: 25px;
+   
 }
 .projects-description{
     font-size: medium;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 
 }
 .projects-skills{
@@ -293,6 +321,7 @@ padding-top: 20px;
 }
 
 .projects-button{
+    font-size: 25px;
     color: black;
     text-decoration-line: none;
 }
@@ -302,13 +331,8 @@ padding-top: 20px;
     
 }
 
-.projects-button{
-    font-size: medium;
-    
-}
-
 .projects-button:hover{
-    color: black;
+    color:palegreen;
 }
 
 .section-title:hover{
@@ -316,68 +340,292 @@ color: palegreen;
 }
 
 /* Contact Me */
-.contact-section{
-    padding: 100px;
-    justify-content: center;
+.contact{
     width: 100%;
     height: 500px;
-
-    
-}
-.contact-group{
-gap: 40px;
-
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact-form{
-    position: relative;
-    /* padding: 30px; */
-    display: center;
+.contact-left{
+    height: 500px;
+    width: 35%;
 }
-
-.contact-input{
-    /* background-color: gray; */
-    
-    border-radius: 20px;
-    /* color: white; */
-    margin-bottom: 15px;
-    margin-right: 2px;
-    width: 19%;   /* Set the width of the text box */
-    height: 55px;   /* Set the height of the text box */
-    padding: 20px;  /* Optional: Adds space inside the box for text */
-
+.contact-left-h1{
+   
+    margin-top: 50px;
+    margin-left: 30px;
 }
-
-.contact-area{
-    height: 150px;
-    width: 39%;
-    border-radius: 10px;
-    resize: none; 
-}
-.contact-button{
-    margin-top: 40px;
-    cursor: pointer;
-    width: 130px;       /* Set the button width */
-    height: 40px;       /* Set the button height */
-    border-radius: 10px;
-    background-color: black;
-    color:palegreen;
-    font-size: 15px;
-}
-
-.contact-button:hover{
-background-color: palegreen;
-color: black;
-}
-.contact-message{
-    position:absolute;
-    font-size:small ;
-}
-
-.section-title1{
-    padding-bottom: 10px;
-}
-
-.section-title1:hover{
+.contact-left-h1:hover{
     color: palegreen;
 }
+.contact-left-phone i{
+    font-size: 30px;
+    gap: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: blue;
+
+ }
+.contact-left-phone i:hover{
+    color: palegreen;
+
+}
+.contact-left-phone span{
+    font-size: 25px;
+}
+.contact-left-phone span:hover{
+    color: palegreen;
+}
+.contact-left-email{
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.contact-left-email span{
+    font-size:25px;
+    margin-left: 10px;
+}
+.contact-left-social{
+    margin-left: 30px;  
+}
+.gmail-icon{
+    height: 20px;
+    width: 7%;
+}
+.contact-left-email :hover{
+    color: palegreen;
+}
+
+/* Contact-Right */
+
+.contact-right{
+    height: 500px;
+    width: 50%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input .input1, .input2{
+    height: 50px;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    
+}
+
+textarea{
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.submit-btn button{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 20px;
+    color: palegreen;
+    font-size: 20px;
+    border: none;
+}
+
+/* Service section */
+.services{
+    height: 400px;
+     width: 100%;
+    /*background-color: #663399; */
+}
+.service-h1{
+    margin-left: 60px;
+}
+.service-h1:hover{
+    color: palegreen;
+}
+
+.services-boxes{
+    height: 300px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+ }
+ 
+.service-box-1{
+    height: 250px;
+    width: 300px;
+    background-color:black;
+    color: palegreen;
+    border-radius: 20px;
+    scale: 0.90;
+    transition: scale 1s 1s ease-in;
+}
+.service-box-1:hover{
+    scale: 1;
+}
+.service-box-1  i{
+   font-size: 40px;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+.service-box-1  h2{
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+ .service-box-1  p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 20px;
+ }
+
+ .service-box-1  .learn{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+.service-box-2{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    color: palegreen;
+    border-radius: 20px;
+    scale: 0.90;
+    transition: scale 1s 1s ease-in;
+}
+.service-box-2:hover{
+    scale: 1;
+}
+
+.service-box-2  i{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+ .service-box-2  h2{
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+  .service-box-2  p{
+     font-size: 14px;
+     padding-top: 10px;
+     padding-left: 20px;
+  }
+ 
+  .service-box-2  .learn{
+     font-size: 20px;
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+
+.service-box-3{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    color: palegreen;
+    border-radius: 20px;
+    scale: 0.90;
+    transition: scale 1s 1s ease-in;
+}
+.service-box-3:hover{
+    scale: 1;
+}
+
+.service-box-3  i{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+ .service-box-3  h2{
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+  .service-box-3  p{
+     font-size: 14px;
+     padding-top: 10px;
+     padding-left: 20px;
+  }
+ 
+  .service-box-3  .learn{
+     font-size: 20px;
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+
+  /* Project Section */
+
+  /* .projects{
+    height: 500px;
+    width: 100%; */
+    /*background-color: red; */
+  /* }
+  .projects-h1:hover{
+    color: palegreen;
+  }
+  .projects-h1{
+    margin-left: 30px;
+  }
+  .projects-boxes{
+    height: 300px;
+    width: 100%;
+    /* background-color: blue; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    margin-top: 75px;
+   
+  }
+  .projects-box-1{
+    height: 350px;
+    width: 300px; */
+    /* background-color:yellow; */
+    /* border-radius: 20px;
+    background-image: url("Tic.jpg");
+    background-size: cover;
+    border: 25px solid black;
+    transition: all 0.5s 0.5s ease-in;
+  }
+.projects-box-1:hover{
+    border: 25px solid palegreen;
+    scale: 1.1;
+}
+  .projects-box-2{
+    height: 350px;
+    width: 300px; */
+    /* background-color:yellow; */
+    /* border-radius: 20px;
+    background-image: url("Rock.jpg");
+    background-size: cover;
+    border: 25px solid black;
+    transition: border 0.5s 0.5s ease-in;
+  }
+  .projects-box-2:hover{
+    border: 25px solid palegreen;
+    scale: 1.1;
+}
+  .projects-box-3{
+    height: 350px;
+    width: 300px;
+    /* background-color:yellow; */
+    /* border-radius: 20px;
+    background-image: url("");
+    background-size: cover;
+    border: 25px solid black;
+    transition: all 0.5s 0.5s ease-in;
+  }
+  .projects-box-3:hover{
+    border: 25px solid palegreen;
+    scale: 1.1;
+}  */
