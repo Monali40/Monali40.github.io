@@ -248,7 +248,7 @@
             <div class="projects-box-3"></div>
         </div>
        </div> -->
-     <!-- Contact Me -->
+  
 
 
      <!-- Contact Me Section -->
@@ -278,20 +278,23 @@
             </div>  
 
         </div>
-        <div class="contact-right">
-            <div class="input">
-                <input placeholder="Your Name" type="text" required class="input1">
-                <input placeholder="Your Email" type="email" required class="input2">
-            </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            
+            <h2>Connect with me</h2>
+              <p>If you want to know more about me or my work, or if you would just
+                like to say hello, send me a message. I'd love to hear from you.</p>  
 
-            <textarea placeholder="Message"></textarea>
-            <div class="submit-btn">
-                <button>Submit</button>
+                <input type="hidden" name="access_key" value="487d71c1-0baf-4927-84f1-9f92a942dca8">
+                <input placeholder="Your Name"  name="name" id="input1" required>
+                <input placeholder="Your Email" name="email" id="input2" required >
+                <textarea placeholder="Message" name="message" row="4" id="textarea"></textarea>
+                <button type="submit">Submit</button>
             </div>
-        </div>
+        </form>
       </div>
      
-
     <script src="portfolio.js"></script>
+
+    </script>
   </body>
 </html>

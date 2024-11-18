@@ -59,3 +59,4 @@ learn.addEventListener("click",function(){
     alert("All details coming soon.... ");
 });
 });
+
