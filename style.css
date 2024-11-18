@@ -73,13 +73,13 @@ color: black;
 /* Main Section */
 
 .main{
-    height: 700px;
+    height: 100%;
     width: 100%;
     display: flex;
 }
 
 .main-left{
-    height: 700px;
+    height: 100%;
     width: 50%;
     
 }
@@ -109,7 +109,7 @@ color: black;
 }
 
 .main-right{
-    height: 500px;
+    height: 100%;
     width: 50%;
    
 }
@@ -121,6 +121,7 @@ margin-left: 55px;
 
 
 /* button Resume Download*/
+
 .main-left-btn{
     padding-top: 10px;
       
@@ -153,17 +154,18 @@ margin-left: 55px;
 /* about me  */
 
 .about{
-    height: 500px;
+    height: 100%;
     width: 100%;
     /* background-color: aqua; */
-    display: flex;
+    /*display: flex;
     flex-direction: row;
+    display: flex;*/
 }
 
 /* About me left section */
 .about-left{
-    height: 500px;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     /* background-color: bisque; */
     padding-left: 60px;
     padding-top: 50px;
@@ -198,8 +200,8 @@ margin-left: 55px;
 
 /* About me right section */
 .about-right{
-    height: 500px;
-    width: 40%;
+    height: 100%;
+    width: 100%;
   
     /* background-color: red; */
     padding-left: 60px;
@@ -342,7 +344,7 @@ color: palegreen;
 /* Contact Me */
 .contact{
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: flex;
     margin-top: 120px;
     justify-content: center;
@@ -442,12 +444,13 @@ textarea{
 
 /* Service section */
 .services{
-    height: 400px;
+    height: 100%;
      width: 100%;
     /*background-color: #663399; */
 }
 .service-h1{
     margin-left: 60px;
+    padding-top: 205px;
 }
 .service-h1:hover{
     color: palegreen;
