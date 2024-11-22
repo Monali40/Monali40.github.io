@@ -16,6 +16,7 @@ body, html{
 
 /* Navbar styling */
 .nav{
+    position:fixed;
     height: 80px;
     width: 100%;
     display:flex;
@@ -163,26 +164,26 @@ margin-left: 55px;
 }
 
 /* About me left section */
-.about-left{
+.about-top{
     height: 100%;
     width: 100%;
     /* background-color: bisque; */
     padding-left: 60px;
-    padding-top: 50px;
+    padding-top: 130px;
     padding-right: 50px;
 }
 
-.about-left-h1{
+.about-top-h1{
     color: black;
 
     /* border-bottom : 4px solid black; */
     /* display: inline-block;           Restricts the border width to text area */
 }
 
-.about-left-h1:hover {
+.about-top-h1:hover {
     color: palegreen;
 }
-.about-left-para{
+.about-top-para{
     padding-top: 15px;
     font-size: 20px;
     color: #333;/* Dark gray text color */
@@ -190,16 +191,16 @@ margin-left: 55px;
     
 }
 
-.about-left-para span{
+.about-top-para span{
     color: palegreen;
 }
 
-.about-left-para span:hover{
+.about-top-para span:hover{
     color:black;
 }
 
 /* About me right section */
-.about-right{
+.about-down{
     height: 100%;
     width: 100%;
   
@@ -209,10 +210,10 @@ margin-left: 55px;
     padding-right: 50px;
     
 }
-.about-right-h1{
+.about-down-h1{
     color: black;
 }
-.about-right-h1:hover{
+.about-down-h1:hover{
    
     color: palegreen;
 }
@@ -247,7 +248,7 @@ gap: 20px;
 padding-top: 20px;
 } */
 
-.about-right-skills-container
+.about-down-skills-container
 {
 display: grid;
 grid-template-columns: repeat(6,1fr); /* Fixed 4-column layout */
@@ -264,7 +265,7 @@ padding-top: 20px;
 
 } */
 
-.about-right-skills-container:hover{
+.about-down-skills-container:hover{
     color: palegreen;
 }
 
@@ -342,7 +343,7 @@ color: palegreen;
 }
 
 .section-title{
-    padding-top: 40px;
+    padding-top: 110px;
 }
 
 /* Contact Me */
@@ -412,7 +413,7 @@ form{
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding-top: 70px;
+    padding-top: 140px;
     justify-items: center;
     align-items: center;
 }
