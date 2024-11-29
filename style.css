@@ -23,10 +23,17 @@ body, html{
     align-items: center;
     justify-content:space-between;
     padding: 5px 50px;
+    background-color: gray;
 
 }
 .nav-h1 span{
     color: palegreen;
+}
+.nav-h1:hover{
+    color:palegreen;
+}
+.nav-h1{
+    color:black
 }
 .nav-options .home{
    color:palegreen;
