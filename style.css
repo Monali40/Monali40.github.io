@@ -494,8 +494,8 @@ form button{
  }
  
 .service-box-1{
-    height: 250px;
-    width: 300px;
+    height: 300px;
+    width: 350px;
     background-color:black;
     color: palegreen;
     border-radius: 20px;
@@ -526,8 +526,8 @@ form button{
     padding-left: 20px;
  }
 .service-box-2{
-    height: 250px;
-    width: 300px;
+    height: 300px;
+    width: 350px;
     background-color: black;
     color: palegreen;
     border-radius: 20px;
@@ -560,8 +560,8 @@ form button{
   }
 
 .service-box-3{
-    height: 250px;
-    width: 300px;
+    height: 300px;
+    width: 350px;
     background-color: black;
     color: palegreen;
     border-radius: 20px;
@@ -588,6 +588,106 @@ form button{
   }
  
   .service-box-3  .learn{
+     font-size: 20px;
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+  .service-box-4{
+    height: 300px;
+    width: 350px;
+    background-color: black;
+    color: palegreen;
+    border-radius: 20px;
+    scale: 0.90;
+    transition: scale 1s 1s ease-in;
+}
+.service-box-4:hover{
+    scale: 1;
+}
+
+.service-box-4  i{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+ .service-box-4  h2{
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+  .service-box-4  p{
+     font-size: 14px;
+     padding-top: 10px;
+     padding-left: 20px;
+  }
+ 
+  .service-box-4  .learn{
+     font-size: 20px;
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+  .service-box-5{
+    height: 300px;
+    width: 350px;
+    background-color: black;
+    color: palegreen;
+    border-radius: 20px;
+    scale: 0.90;
+    transition: scale 1s 1s ease-in;
+}
+.service-box-5:hover{
+    scale: 1;
+}
+
+.service-box-5  i{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+ .service-box-5  h2{
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+  .service-box-5  p{
+     font-size: 14px;
+     padding-top: 10px;
+     padding-left: 20px;
+  }
+ 
+  .service-box-5  .learn{
+     font-size: 20px;
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+
+  .service-box-6{
+    height: 300px;
+    width: 350px;
+    background-color: black;
+    color: palegreen;
+    border-radius: 20px;
+    scale: 0.90;
+    transition: scale 1s 1s ease-in;
+}
+.service-box-6:hover{
+    scale: 1;
+}
+
+.service-box-6  i{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+ .service-box-6  h2{
+     padding-top: 20px;
+     padding-left: 20px;
+  }
+  .service-box-6  p{
+     font-size: 14px;
+     padding-top: 10px;
+     padding-left: 20px;
+  }
+ 
+  .service-box-6  .learn{
      font-size: 20px;
      padding-top: 20px;
      padding-left: 20px;
